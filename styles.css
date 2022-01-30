@@ -221,36 +221,8 @@ a {
 .contact-body{
   margin: 2em auto;
 }
-/*  Gallery */
-.photo-grid-container {
-  display: flex;
-  justify-content: center;
 
-}
-
-.photo-grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.photo-grid-item {
-  margin: 1em;
-  width: 14.5em;
-  height: 18em;
-  align-self: center;
-  padding: 1em;
-}
-.photo-grid-item:hover{
-  opacity: 1.0;
-}
-.photo-grid-item img{
-  height: 100%;
-
-}
 .portfolio-text{
   margin-top: 6em;
-}
-.portfolio-title{
   text-align: center;
 }
