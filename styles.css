@@ -1,3 +1,8 @@
+/*  cream = #FFF8F3
+    light blue = #A3E4DB
+    dark blue = #1C6DD0
+    pink = #FED1EF
+*/
 html {
   height: 100%;
   box-sizing: border-box;
@@ -7,6 +12,8 @@ body {
   margin: 0;
   font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
+  font-size: 16px;
+  overflow: scroll;
   /* for footer */
   position: relative;
   padding-bottom: 6rem;
@@ -33,7 +40,7 @@ a {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .header li a {
@@ -51,11 +58,13 @@ a {
 .header .logo {
   display: block;
   float: left;
-  font-size: 2em;
+  margin: auto aut
   padding: 10px 20px;
   text-decoration: none;
 }
-
+.nav-link{
+  font-size: 1em;
+}
 /* menu */
 
 .header .menu {
@@ -147,16 +156,67 @@ a {
   .header .menu-icon {
     display: none;
   }
+  .navbar-nav {
+    margin-left: auto!important;
+    margin-right: 0!important;
+}
 }
 
 
 /*  Footer  */
 .footer{
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 0.75rem;
-  background-color: #efefef;
+  background-color: #8C8C8C;
   text-align: center;
+  font-size: 1.5em;
+}
+
+.welcome{
+  text-align: center;
+  padding-top: 1em;
+  font-size: 24px;
+}
+.welcome h1{
+  font-size: 2em;
+}
+.bg-light {
+    background-color: #fff!important;
+}
+.photo-grid-container{
+  overflow: hidden;
+  list-style: none;
+}
+.photo img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+.container{
+  margin-top: 1em;
+}
+.img-fluid{
+  margin-top: 6em !important;
+}
+.tile-row{
+  margin: 2em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+}
+.tile-img{
+  height: 100%;
+}
+.tile-text{
+  margin: auto 1em;
+}
+.contact{
+  margin-top: 6em;
+  text-align: center;
+}
+.contact-body{
+  margin: 2em auto;
 }
